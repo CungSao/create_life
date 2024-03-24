@@ -1,0 +1,9 @@
+Create Grid - CELL SIZE, Colors
+Snake - head, move, wrap, body, grow
+Spawner Food
+Score
+Gameover
+
+thắc mắc
+-tại sao lại dùng signal hit
+-mini có tác dụng gì

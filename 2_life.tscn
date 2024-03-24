@@ -1,0 +1,276 @@
+[gd_scene load_steps=6 format=3 uid="uid://cetheuexv0mp4"]
+
+[ext_resource type="Script" path="res://scripts/grid.gd" id="1_7qiwi"]
+[ext_resource type="Script" path="res://scripts_2/microo.gd" id="2_gjfaj"]
+[ext_resource type="PackedScene" uid="uid://cfti85edh16jg" path="res://scene_2/text.tscn" id="3_uqrf0"]
+
+[sub_resource type="FontFile" id="FontFile_fk3ae"]
+cache/0/16/0/ascent = 0.0
+cache/0/16/0/descent = 0.0
+cache/0/16/0/underline_position = 0.0
+cache/0/16/0/underline_thickness = 0.0
+cache/0/16/0/scale = 1.0
+cache/0/16/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/32/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/21/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/40/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/24/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/22/0 = Vector2(0, 0)
+cache/0/16/0/kerning_overrides/23/0 = Vector2(0, 0)
+cache/0/32/0/ascent = 0.0
+cache/0/32/0/descent = 0.0
+cache/0/32/0/underline_position = 0.0
+cache/0/32/0/underline_thickness = 0.0
+cache/0/32/0/scale = 1.0
+cache/0/32/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/32/0/kerning_overrides/32/0 = Vector2(0, 0)
+cache/0/32/0/kerning_overrides/21/0 = Vector2(0, 0)
+cache/0/32/0/kerning_overrides/40/0 = Vector2(0, 0)
+cache/0/32/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/32/0/kerning_overrides/24/0 = Vector2(0, 0)
+cache/0/32/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/32/0/kerning_overrides/22/0 = Vector2(0, 0)
+cache/0/32/0/kerning_overrides/23/0 = Vector2(0, 0)
+cache/0/21/0/ascent = 0.0
+cache/0/21/0/descent = 0.0
+cache/0/21/0/underline_position = 0.0
+cache/0/21/0/underline_thickness = 0.0
+cache/0/21/0/scale = 1.0
+cache/0/21/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/21/0/kerning_overrides/32/0 = Vector2(0, 0)
+cache/0/21/0/kerning_overrides/21/0 = Vector2(0, 0)
+cache/0/21/0/kerning_overrides/40/0 = Vector2(0, 0)
+cache/0/21/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/21/0/kerning_overrides/24/0 = Vector2(0, 0)
+cache/0/21/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/21/0/kerning_overrides/22/0 = Vector2(0, 0)
+cache/0/21/0/kerning_overrides/23/0 = Vector2(0, 0)
+cache/0/40/0/ascent = 0.0
+cache/0/40/0/descent = 0.0
+cache/0/40/0/underline_position = 0.0
+cache/0/40/0/underline_thickness = 0.0
+cache/0/40/0/scale = 1.0
+cache/0/40/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/40/0/kerning_overrides/32/0 = Vector2(0, 0)
+cache/0/40/0/kerning_overrides/21/0 = Vector2(0, 0)
+cache/0/40/0/kerning_overrides/40/0 = Vector2(0, 0)
+cache/0/40/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/40/0/kerning_overrides/24/0 = Vector2(0, 0)
+cache/0/40/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/40/0/kerning_overrides/22/0 = Vector2(0, 0)
+cache/0/40/0/kerning_overrides/23/0 = Vector2(0, 0)
+cache/0/30/0/ascent = 0.0
+cache/0/30/0/descent = 0.0
+cache/0/30/0/underline_position = 0.0
+cache/0/30/0/underline_thickness = 0.0
+cache/0/30/0/scale = 1.0
+cache/0/30/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/32/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/21/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/40/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/24/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/22/0 = Vector2(0, 0)
+cache/0/30/0/kerning_overrides/23/0 = Vector2(0, 0)
+cache/0/24/0/ascent = 0.0
+cache/0/24/0/descent = 0.0
+cache/0/24/0/underline_position = 0.0
+cache/0/24/0/underline_thickness = 0.0
+cache/0/24/0/scale = 1.0
+cache/0/24/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/24/0/kerning_overrides/32/0 = Vector2(0, 0)
+cache/0/24/0/kerning_overrides/21/0 = Vector2(0, 0)
+cache/0/24/0/kerning_overrides/40/0 = Vector2(0, 0)
+cache/0/24/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/24/0/kerning_overrides/24/0 = Vector2(0, 0)
+cache/0/24/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/24/0/kerning_overrides/22/0 = Vector2(0, 0)
+cache/0/24/0/kerning_overrides/23/0 = Vector2(0, 0)
+cache/0/20/0/ascent = 0.0
+cache/0/20/0/descent = 0.0
+cache/0/20/0/underline_position = 0.0
+cache/0/20/0/underline_thickness = 0.0
+cache/0/20/0/scale = 1.0
+cache/0/20/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/32/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/21/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/40/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/24/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/22/0 = Vector2(0, 0)
+cache/0/20/0/kerning_overrides/23/0 = Vector2(0, 0)
+cache/0/22/0/ascent = 0.0
+cache/0/22/0/descent = 0.0
+cache/0/22/0/underline_position = 0.0
+cache/0/22/0/underline_thickness = 0.0
+cache/0/22/0/scale = 1.0
+cache/0/22/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/22/0/kerning_overrides/32/0 = Vector2(0, 0)
+cache/0/22/0/kerning_overrides/21/0 = Vector2(0, 0)
+cache/0/22/0/kerning_overrides/40/0 = Vector2(0, 0)
+cache/0/22/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/22/0/kerning_overrides/24/0 = Vector2(0, 0)
+cache/0/22/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/22/0/kerning_overrides/22/0 = Vector2(0, 0)
+cache/0/22/0/kerning_overrides/23/0 = Vector2(0, 0)
+cache/0/23/0/ascent = 0.0
+cache/0/23/0/descent = 0.0
+cache/0/23/0/underline_position = 0.0
+cache/0/23/0/underline_thickness = 0.0
+cache/0/23/0/scale = 1.0
+cache/0/23/0/kerning_overrides/16/0 = Vector2(0, 0)
+cache/0/23/0/kerning_overrides/32/0 = Vector2(0, 0)
+cache/0/23/0/kerning_overrides/21/0 = Vector2(0, 0)
+cache/0/23/0/kerning_overrides/40/0 = Vector2(0, 0)
+cache/0/23/0/kerning_overrides/30/0 = Vector2(0, 0)
+cache/0/23/0/kerning_overrides/24/0 = Vector2(0, 0)
+cache/0/23/0/kerning_overrides/20/0 = Vector2(0, 0)
+cache/0/23/0/kerning_overrides/22/0 = Vector2(0, 0)
+cache/0/23/0/kerning_overrides/23/0 = Vector2(0, 0)
+
+[sub_resource type="Theme" id="Theme_noh2t"]
+default_font = SubResource("FontFile_fk3ae")
+default_font_size = 23
+
+[node name="Life" type="Node2D"]
+
+[node name="grid" type="Node2D" parent="."]
+script = ExtResource("1_7qiwi")
+
+[node name="microo" type="Node2D" parent="."]
+script = ExtResource("2_gjfaj")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(314, 241)
+zoom = Vector2(0.8, 0.95)
+
+[node name="VBoxContainer" type="VBoxContainer" parent="."]
+custom_minimum_size = Vector2(320, 682)
+anchors_preset = 10
+anchor_right = 1.0
+offset_left = -390.0
+offset_top = -95.0
+offset_right = -70.0
+offset_bottom = 587.0
+theme = SubResource("Theme_noh2t")
+theme_override_constants/separation = 5
+alignment = 1
+metadata/_edit_group_ = true
+
+[node name="speed" parent="VBoxContainer" instance=ExtResource("3_uqrf0")]
+layout_mode = 2
+
+[node name="distance" parent="VBoxContainer" instance=ExtResource("3_uqrf0")]
+layout_mode = 2
+text = "distance"
+
+[node name="size" parent="VBoxContainer" instance=ExtResource("3_uqrf0")]
+layout_mode = 2
+text = "size"
+
+[node name="VSplitContainer" type="VSplitContainer" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 5)
+layout_mode = 2
+
+[node name="yellow" type="Label" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 180)
+layout_mode = 2
+text = "yellow"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/yellow"]
+layout_mode = 0
+offset_left = 36.0
+offset_top = 34.0
+offset_right = 236.0
+offset_bottom = 74.0
+theme_override_constants/separation = 5
+
+[node name="number_yellow" parent="VBoxContainer/yellow/VBoxContainer" instance=ExtResource("3_uqrf0")]
+custom_minimum_size = Vector2(270, 0)
+layout_mode = 2
+text = "number"
+
+[node name="yellow_x_yellow" parent="VBoxContainer/yellow/VBoxContainer" instance=ExtResource("3_uqrf0")]
+custom_minimum_size = Vector2(270, 0)
+layout_mode = 2
+text = "yellow x yellow"
+
+[node name="yellow_x_red" parent="VBoxContainer/yellow/VBoxContainer" instance=ExtResource("3_uqrf0")]
+custom_minimum_size = Vector2(270, 0)
+layout_mode = 2
+text = "yellow x red"
+
+[node name="yellow_x_green" parent="VBoxContainer/yellow/VBoxContainer" instance=ExtResource("3_uqrf0")]
+custom_minimum_size = Vector2(270, 0)
+layout_mode = 2
+text = "yellow x green"
+
+[node name="red" type="Label" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 180)
+layout_mode = 2
+text = "red"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/red"]
+layout_mode = 0
+offset_left = 36.0
+offset_top = 34.0
+offset_right = 236.0
+offset_bottom = 74.0
+theme_override_constants/separation = 5
+
+[node name="number_red" parent="VBoxContainer/red/VBoxContainer" instance=ExtResource("3_uqrf0")]
+custom_minimum_size = Vector2(270, 0)
+layout_mode = 2
+text = "number"
+
+[node name="red_x_red" parent="VBoxContainer/red/VBoxContainer" instance=ExtResource("3_uqrf0")]
+custom_minimum_size = Vector2(270, 0)
+layout_mode = 2
+text = "red x red"
+
+[node name="red_x_yellow" parent="VBoxContainer/red/VBoxContainer" instance=ExtResource("3_uqrf0")]
+custom_minimum_size = Vector2(270, 0)
+layout_mode = 2
+text = "red x yellow"
+
+[node name="red_x_green" parent="VBoxContainer/red/VBoxContainer" instance=ExtResource("3_uqrf0")]
+custom_minimum_size = Vector2(270, 0)
+layout_mode = 2
+text = "red x green"
+
+[node name="green" type="Label" parent="VBoxContainer"]
+custom_minimum_size = Vector2(0, 180)
+layout_mode = 2
+text = "green"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="VBoxContainer/green"]
+layout_mode = 0
+offset_left = 36.0
+offset_top = 34.0
+offset_right = 236.0
+offset_bottom = 74.0
+theme_override_constants/separation = 5
+
+[node name="number_green" parent="VBoxContainer/green/VBoxContainer" instance=ExtResource("3_uqrf0")]
+custom_minimum_size = Vector2(270, 0)
+layout_mode = 2
+text = "number"
+
+[node name="green_x_green" parent="VBoxContainer/green/VBoxContainer" instance=ExtResource("3_uqrf0")]
+custom_minimum_size = Vector2(270, 0)
+layout_mode = 2
+text = "green x green"
+
+[node name="green_x_yellow" parent="VBoxContainer/green/VBoxContainer" instance=ExtResource("3_uqrf0")]
+custom_minimum_size = Vector2(270, 0)
+layout_mode = 2
+text = "green x yellow"
+
+[node name="green_x_red" parent="VBoxContainer/green/VBoxContainer" instance=ExtResource("3_uqrf0")]
+custom_minimum_size = Vector2(270, 0)
+layout_mode = 2
+text = "green x red"
