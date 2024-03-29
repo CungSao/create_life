@@ -44,6 +44,7 @@ func _on_line_edit_text_submitted(new_text):
 	
 	match name:
 		"speed":
+			#Save.propagate_call(str(name))
 			Save.speed = float(new_text)
 		"distance":
 			Save.distance_limits[1] = int(new_text)

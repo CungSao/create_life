@@ -1,0 +1,49 @@
+[gd_scene load_steps=2 format=3 uid="uid://nsoklnsjaoke"]
+
+[ext_resource type="Script" path="res://3_boid_p2/scripts/boid_2.gd" id="1_irffp"]
+
+[node name="boid_2" type="Node2D"]
+script = ExtResource("1_irffp")
+colors = Array[Color]([Color(0.302078, 0.696881, 0.70154, 1), Color(0.933441, 0.531826, 0.367105, 1), Color(0.665928, 0.624643, 0.864854, 1)])
+
+[node name="Polygon2D" type="Polygon2D" parent="."]
+polygon = PackedVector2Array(-9, -8, 9, 0, -9, 8)
+
+[node name="ObsticleDetectors" type="Node2D" parent="."]
+
+[node name="RayCast2D" type="RayCast2D" parent="ObsticleDetectors"]
+position = Vector2(0, -8)
+target_position = Vector2(50, 0)
+
+[node name="RayCast2D2" type="RayCast2D" parent="ObsticleDetectors"]
+position = Vector2(0, 8)
+target_position = Vector2(50, 0)
+
+[node name="ObsticleSensors" type="Node2D" parent="."]
+
+[node name="RayCast2D3" type="RayCast2D" parent="ObsticleSensors"]
+rotation = -1.74533
+
+[node name="RayCast2D4" type="RayCast2D" parent="ObsticleSensors"]
+rotation = -1.39626
+
+[node name="RayCast2D5" type="RayCast2D" parent="ObsticleSensors"]
+rotation = -1.0472
+
+[node name="RayCast2D6" type="RayCast2D" parent="ObsticleSensors"]
+rotation = -2.0944
+
+[node name="RayCast2D7" type="RayCast2D" parent="ObsticleSensors"]
+rotation = -0.698132
+
+[node name="RayCast2D8" type="RayCast2D" parent="ObsticleSensors"]
+rotation = -2.44346
+
+[node name="RayCast2D9" type="RayCast2D" parent="ObsticleSensors"]
+rotation = -0.349066
+
+[node name="RayCast2D10" type="RayCast2D" parent="ObsticleSensors"]
+rotation = -2.79253
+
+[node name="RayCast2D11" type="RayCast2D" parent="ObsticleSensors"]
+target_position = Vector2(-50, 0)

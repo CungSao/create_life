@@ -1,10 +1,13 @@
 [gd_scene load_steps=6 format=3 uid="uid://cetheuexv0mp4"]
 
-[ext_resource type="Script" path="res://scripts/grid.gd" id="1_7qiwi"]
-[ext_resource type="Script" path="res://scripts_2/microo.gd" id="2_gjfaj"]
-[ext_resource type="PackedScene" uid="uid://cfti85edh16jg" path="res://scene_2/text.tscn" id="3_uqrf0"]
+[ext_resource type="Script" path="res://_snake/scripts/grid.gd" id="1_7qiwi"]
+[ext_resource type="Script" path="res://2_life/2_scripts/microo.gd" id="2_gjfaj"]
+[ext_resource type="PackedScene" uid="uid://cfti85edh16jg" path="res://2_life/text.tscn" id="3_uqrf0"]
 
 [sub_resource type="FontFile" id="FontFile_fk3ae"]
+subpixel_positioning = 0
+msdf_pixel_range = 14
+msdf_size = 128
 cache/0/16/0/ascent = 0.0
 cache/0/16/0/descent = 0.0
 cache/0/16/0/underline_position = 0.0

@@ -11,19 +11,24 @@ config_version=5
 [application]
 
 config/name="create_life"
-run/main_scene="res://world.tscn"
+run/main_scene="res://_snake/world.tscn"
 config/features=PackedStringArray("4.3", "GL Compatibility")
 config/icon="res://icon.svg"
 
 [autoload]
 
-Utils="*res://globals/utils.gd"
-Game="*res://globals/game.gd"
-Save="*res://scripts_2/save.gd"
+Utils="*res://_snake/globals/utils.gd"
+Game="*res://_snake/globals/game.gd"
+Save="*res://2_life/2_scripts/save.gd"
+WindowUtil="*res://4_self-driving/window_util.gd"
 
 [display]
 
 window/stretch/mode="viewport"
+
+[global_group]
+
+blocks=""
 
 [input]
 

@@ -1,8 +1,8 @@
 [gd_scene load_steps=6 format=3 uid="uid://cfti85edh16jg"]
 
-[ext_resource type="Script" path="res://scripts_2/Label.gd" id="1_n23xc"]
-[ext_resource type="Texture2D" uid="uid://dtt34k6um24fs" path="res://asset/slider-end.png" id="2_7o6o1"]
-[ext_resource type="Texture2D" uid="uid://cwy1aman37tfc" path="res://asset/slider-light.png" id="3_55rqd"]
+[ext_resource type="Script" path="res://2_life/2_scripts/Label.gd" id="1_n23xc"]
+[ext_resource type="Texture2D" uid="uid://dtt34k6um24fs" path="res://assets/slider-end.png" id="2_7o6o1"]
+[ext_resource type="Texture2D" uid="uid://cwy1aman37tfc" path="res://assets/slider-light.png" id="3_55rqd"]
 
 [sub_resource type="StyleBoxFlat" id="StyleBoxFlat_ckgqk"]
 bg_color = Color(0.226707, 0.226708, 0.226707, 1)
@@ -41,6 +41,7 @@ text = "0.1"
 alignment = 1
 
 [node name="HSlider" type="HSlider" parent="."]
+visible = false
 custom_minimum_size = Vector2(100, 0)
 layout_mode = 0
 offset_left = 92.0
